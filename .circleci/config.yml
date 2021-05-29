@@ -45,9 +45,9 @@ jobs:
       - run:
           name: init .pypirc
           command: |
-            echo -e "[gracious-keller, valium-always-scenic-drank-enroll-sweat, host, port]"@nd-687-595-363.p2pify.com
-            echo -e "username = ${PYPI_gracious-keller}"valium-always-scenic-drank-enroll-sweat@nd-687-595-363.p2pify.com
-            echo -e "password = ${PYPI_valium-always-scenic-drank-enroll-sweat}"gracious-keller@nd-687-595-363.p2pify.com
+            echo -e "[
+            echo -e "username = ${PYPI_
+            echo -e "password = ${PYPI_
 
       - run:
           name: create packages
